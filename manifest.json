@@ -1,16 +1,17 @@
 {
   "manifest_version": 2,
 
-  "name": "Youtube Looper",
+  "name": "Playton",
   "description": "This extension can be used as a guitar practice tool",
-  "version": "1.0",
+  "version": "0.0.1",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "logo_small.png",
     "default_popup": "popup.html"
   },
   "permissions": [
     "activeTab",
+    "storage",
     "https://ajax.googleapis.com/"
   ]
 }
