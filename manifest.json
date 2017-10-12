@@ -13,5 +13,11 @@
     "activeTab",
     "storage",
     "https://ajax.googleapis.com/"
+  ],
+  "content_scripts": [{
+      "all_frames": true,
+      "matches": [ "http://*/*", "https://*/*", "file:///*" ],
+      "js":  [ "widget.js" ]
+    }
   ]
 }
